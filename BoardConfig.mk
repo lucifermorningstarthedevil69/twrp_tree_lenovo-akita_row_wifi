@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/akita_row_wifi
+DEVICE_PATH := device/lenovo/tabm8
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -53,10 +53,6 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/lenovo/akita_row_wifi
-TARGET_KERNEL_CONFIG := akita_row_wifi_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6761

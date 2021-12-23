@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_akita_row_wifi.mk
+    $(LOCAL_DIR)/omni_tabm8.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_akita_row_wifi-user \
-    omni_akita_row_wifi-userdebug \
-    omni_akita_row_wifi-eng
+    omni_tabm8-eng
