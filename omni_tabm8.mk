@@ -23,3 +23,8 @@ PRODUCT_NAME := omni_tabm8
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-8505F
 PRODUCT_MANUFACTURER := lenovo
+
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+	
